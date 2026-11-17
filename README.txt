@@ -5,8 +5,8 @@ RUN LOCALLY (VS Code)
 1. File -> Open Folder -> my-app
 2. Terminal:  npm install
               npm run dev
-3. Open http://localhost:5173/my-app/
+3. Open http://localhost:5173/my--app/
 
 PIPELINE  (.github/workflows/ci.yml)
  push to main -> checkout -> setup Node 20 -> npm ci -> npm run build -> deploy dist to GitHub Pages
-Live site: https://mcabatch025-png.github.io/my-app/
+Live site: https://pavithrakumar28.github.io/my--app/
