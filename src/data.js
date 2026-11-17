@@ -24,4 +24,5 @@ export const reviews = [
   { name: 'Priya S.', city: 'Coimbatore', text: 'The roses reached my mother before noon and stayed fresh for a week. She still talks about them.' },
   { name: 'Arjun K.', city: 'Salem', text: 'I ordered the bridal bouquet for my sister. The wrapping looked even better than the photo.' },
   { name: 'Meena R.', city: 'Erode', text: 'Easy to order, and the delivery person called before arriving. Will order again for Diwali.' },
+  { name: 'Rajesh M.', city: 'Chennai', text: 'The tulip bouquet was beautiful and lasted long. Great customer service!' }
 ];

@@ -25,7 +25,9 @@ export default function Bouquet({ look, wrap = '#e9c9a0', ribbon = '#c2255c' }) 
           <FlowerShape uid={`${id}${i}`} {...look} />
         </g>
       ))}
+
       <path d="M38 118 L162 118 L112 222 Q100 228 88 222 Z" fill={wrap} />
+      
       <path d="M38 118 L100 150 L88 222 Z" fill="#000" opacity="0.07" />
       <path d="M38 118 L162 118 L100 150 Z" fill="#fff" opacity="0.35" />
       <path d="M82 156 L118 156 L114 170 L86 170 Z" fill={ribbon} />

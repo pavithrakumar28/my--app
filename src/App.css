@@ -4,20 +4,28 @@
   --rose: #c2255c;
   --rose-dark: #9d1a49;
   --plum: #2f1b2c;
+
   --leaf: #4f7a52;
+
   --sun: #ffd166;
+
   --paper: #ffffff;
+
   --line: #f1d6dc;
   --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
   --sans: 'Nunito Sans', 'Segoe UI', system-ui, sans-serif;
 }
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 78px; }
+
 body { margin: 0; font-family: var(--sans); color: var(--plum); background: var(--blush); line-height: 1.6; }
 h1, h2, h3 { font-family: var(--serif); line-height: 1.15; margin: 0; }
 a { color: inherit; }
+
 :focus-visible { outline: 3px solid var(--rose); outline-offset: 3px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
 
 /* navigation */
 .nav { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 5vw; background: rgba(255, 243, 241, 0.94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
